@@ -60,25 +60,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\constraint.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\GunShoot.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
-    <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-    <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
-    <Compile Include="Assets\Enemy.cs" />
-    <Compile Include="Assets\EnemyMove.cs" />
-    <Compile Include="Assets\Movement.cs" />
-    <Compile Include="Assets\Rotate.cs" />
-    <Compile Include="Assets\Rotateback.cs" />
-    <Compile Include="Assets\UpAndDown.cs" />
-    <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
-    <None Include="Assets\StarSparrow\ReadMe.txt" />
-    <None Include="Assets\Note about Editor Folder.txt" />
-    <None Include="Assets\StarSparrow\Materials\Unified\UnifiedMaterials.txt" />
+    <Compile Include="Assets\MyGame\FirstLevel\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
+    <Compile Include="Assets\MyGame\FirstLevel\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
+    <Compile Include="Assets\MyGame\FirstLevel\EffectExamples\Shared\Scripts\GunAim.cs" />
+    <Compile Include="Assets\MyGame\FirstLevel\EffectExamples\Shared\Scripts\GunShoot.cs" />
+    <Compile Include="Assets\MyGame\FirstLevel\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
+    <Compile Include="Assets\MyGame\FirstLevel\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
+    <Compile Include="Assets\MyGame\FirstLevel\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\MyGame\FirstLevel\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\ActiveStateToggler.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\ApplicationManager.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\ChangeColor.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\DragMe.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\DragPanel.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\DropMe.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\PanelManager.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\ResizePanel.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\ScrollDetailTexture.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\ShowSliderValue.cs" />
+    <Compile Include="Assets\MyGame\MainMenu\Scripts\TiltWindow.cs" />
+    <Compile Include="Assets\MyGame\Scripts\constraint.cs" />
+    <Compile Include="Assets\MyGame\Scripts\destroy.cs" />
+    <Compile Include="Assets\MyGame\Scripts\EndGame.cs" />
+    <Compile Include="Assets\MyGame\Scripts\Enemy.cs" />
+    <Compile Include="Assets\MyGame\Scripts\EnemyMove.cs" />
+    <Compile Include="Assets\MyGame\Scripts\Movement.cs" />
+    <Compile Include="Assets\MyGame\Scripts\Rotate.cs" />
+    <Compile Include="Assets\MyGame\Scripts\Rotateback.cs" />
+    <Compile Include="Assets\MyGame\Scripts\startFirstLevel.cs" />
+    <Compile Include="Assets\MyGame\Scripts\UpAndDown.cs" />
+    <None Include="Assets\MyGame\FirstLevel\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\MyGame\FirstLevel\StarSparrow\ReadMe.txt" />
+    <None Include="Assets\MyGame\MainMenu\Fonts\Jupiter\LICENSE.txt" />
+    <None Include="Assets\MyGame\MainMenu\Textures and Sprites\SF UI\Background\LICENSE.txt" />
+    <None Include="Assets\MyGame\MainMenu\Materials\UI-Default-No-Alpha.shader" />
+    <None Include="Assets\MyGame\Note about Editor Folder.txt" />
+    <None Include="Assets\MyGame\FirstLevel\StarSparrow\Materials\Unified\UnifiedMaterials.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/UnityProjects/QubixProject/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
